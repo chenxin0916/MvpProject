@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".screen.activity.LoginActivity">
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/title_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo_viewpager_01"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        app:layout_constraintTop_toBottomOf="@id/title_image"
+        android:id="@+id/et_count"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="请输入账号" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:hint="请输入密码"
+        app:layout_constraintTop_toBottomOf="@+id/et_count" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="忘记密码"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/et_password" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="登陆"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:background="#e9fc025e"
+        app:layout_constraintTop_toBottomOf="@+id/et_password" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="相机"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:background="#e9fc025e"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+</android.support.constraint.ConstraintLayout>

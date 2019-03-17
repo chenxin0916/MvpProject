@@ -1,0 +1,9 @@
+*app/.externalNativeBuild
+*app/.DS_Store
+*app/proguard-rules.pro
+*build
+*.gradle
+*.idea/
+*mvpProject.iml
+
+
