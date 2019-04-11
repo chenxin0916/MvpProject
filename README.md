@@ -19,12 +19,12 @@ immersionbar.init() 最简单的沉浸式状态栏实现
 SelectorChapek for Android//自动生成selector插件，需要文件名后缀有一定规律
 
 _normal	       (default state)
-_pressed	   state_pressed
-_focused	   state_focused
-_disabled	   state_enabled (false)
-_checked	   state_checked
-_selected	   state_selected
-_hovered	   state_hovered
-_checkable	   state_checkable
-_activated	   state_activated
-_windowfocused	state_window_focused
+_pressed	     state_pressed                                                                                                   
+_focused	     state_focused                                                                                                   
+_disabled	     state_enabled (false)                                                                                          
+_checked	     state_checked                                                                                                  
+_selected	     state_selected                                                                                                 
+_hovered	     state_hovered                                                                                                  
+_checkable	   state_checkable                                                                                                
+_activated	   state_activated                                                                                               
+_windowfocused	state_window_focused                                                                                           
